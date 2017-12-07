@@ -1,7 +1,7 @@
 # MariaDB_dump
 Dump and import a MariaDB Database
 
-OS: Centos 7.3 \n
+OS: Centos 7.3 <br>
 MariaDB Version: 5.5.52
 
 Firstly you should Set Up SSH Keys between two servers.
