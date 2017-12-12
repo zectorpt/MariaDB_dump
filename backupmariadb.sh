@@ -1,3 +1,6 @@
+#!/bin/bash
+#
+# josemedeirosdealmeida@gmail.com jose.almeida@gfi.pt
 touch /var/log/backupmariadb.log
 chmod 777 /var/log/backupmariadb.log
 mysqldump -u root --all-databases > /tmp/mysql-backup_prdlsup028_$(date +\%Y\%m\%d_\%H\%M\%S).sql
